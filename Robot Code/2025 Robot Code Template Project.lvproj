@@ -121,7 +121,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
-		<Item Name="NEO-NEO-ThroughBore-Pigeon2 Swerve Config.ctl" Type="VI" URL="../../swerve/Type Definitions/Hardware/Swerve Configs/NEO-NEO-ThroughBore-Pigeon2 Swerve Config.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Command Status Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Command Status Info.ctl"/>
@@ -522,8 +521,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="Forward Kinematics.vi" Type="VI" URL="../../swerve/math/Forward Kinematics.vi"/>
-			<Item Name="Pod Setpoints.ctl" Type="VI" URL="../../swerve/Type Definitions/Data/Pod Setpoints.ctl"/>
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -532,47 +529,50 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Draw Pod Actual.vi" Type="VI" URL="../../Swerve Dashboard Template/Draw Pod Actual.vi"/>
 			<Item Name="Calculate Differences.vi" Type="VI" URL="../../Swerve Dashboard Template/Calculate Differences.vi"/>
-			<Item Name="Pod Positions.ctl" Type="VI" URL="../../swerve/Type Definitions/Data/Pod Positions.ctl"/>
-			<Item Name="Robot Velocities.ctl" Type="VI" URL="../../swerve/Type Definitions/Data/Robot Velocities.ctl"/>
-			<Item Name="Dashboard Swerve Visual.vi" Type="VI" URL="../../swerve/test/Inverse Kinematics Test/Dashboard Swerve Visual.vi"/>
-			<Item Name="(NEO &amp; NEO 550) 4 Motor Set.ctl" Type="VI" URL="../../swerve/Type Definitions/Hardware/4 Motor Sets/(NEO &amp; NEO 550) 4 Motor Set.ctl"/>
-			<Item Name="(NEO-NEO-ThroughBore-Pigeon2) Swerve.ctl" Type="VI" URL="../../swerve/Type Definitions/Hardware/Swerve Drives/(NEO-NEO-ThroughBore-Pigeon2) Swerve.ctl"/>
-			<Item Name="NEO Get Sensor Values.vi" Type="VI" URL="../../swerve/Hardware VIs/NEO Get Sensor Values.vi"/>
-			<Item Name="NEO Swerve Drive.vi" Type="VI" URL="../../swerve/Hardware VIs/NEO Swerve Drive.vi"/>
-			<Item Name="Single Cmd Info.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Single Cmd Info.ctl"/>
-			<Item Name="Numerical Integration.vi" Type="VI" URL="../../swerve/math/Numerical Integration.vi"/>
-			<Item Name="Versioned Load.vi" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/FileIO/Versioned Load.vi"/>
-			<Item Name="NEO Set PID Coefficients.vi" Type="VI" URL="../../swerve/Hardware VIs/NEO Set PID Coefficients.vi"/>
-			<Item Name="Field To Robot Centric.vi" Type="VI" URL="../../swerve/math/Field To Robot Centric.vi"/>
-			<Item Name="Inverse Kinematics.vi" Type="VI" URL="../../swerve/math/Inverse Kinematics.vi"/>
-			<Item Name="Inverse Kinematics Solution to Pod Setpoints.vi" Type="VI" URL="../../swerve/math/Inverse Kinematics Solution to Pod Setpoints.vi"/>
-			<Item Name="Get Inverse Kinematics Matrix.vi" Type="VI" URL="../../swerve/math/Get Inverse Kinematics Matrix.vi"/>
-			<Item Name="Create Box.vi" Type="VI" URL="../../swerve/test/Inverse Kinematics Test/Create Box.vi"/>
-			<Item Name="Arrow Drawing Utility.vi" Type="VI" URL="../../swerve/test/Inverse Kinematics Test/Arrow Drawing Utility.vi"/>
-			<Item Name="Draw Arrow.vi" Type="VI" URL="../../swerve/test/Inverse Kinematics Test/Draw Arrow.vi"/>
-			<Item Name="Pod Drawing Utility.vi" Type="VI" URL="../../swerve/test/Inverse Kinematics Test/Pod Drawing Utility.vi"/>
-			<Item Name="Overrides.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Overrides.ctl"/>
-			<Item Name="Angluar Limits.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Angluar Limits.ctl"/>
-			<Item Name="Drive Type.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Drive Type.ctl"/>
-			<Item Name="Path Type.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Path Type.ctl"/>
-			<Item Name="Availible Command systems for auto.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Availible Command systems for auto.ctl"/>
-			<Item Name="Limits.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Limits.ctl"/>
-			<Item Name="Convert Trajectory Data 4.0.vi" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/FileIO/Convert Trajectory Data 4.0.vi"/>
-			<Item Name="Convert Overrides.vi" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Util/Convert Overrides.vi"/>
-			<Item Name="Config Motors NEO.vi" Type="VI" URL="../../swerve/Hardware VIs/Config Motors NEO.vi"/>
-			<Item Name="Pigeon2 Field Centric.vi" Type="VI" URL="../../swerve/Hardware VIs/Pigeon2 Field Centric.vi"/>
-			<Item Name="Optimize Pod Setpoints.vi" Type="VI" URL="../../swerve/math/Optimize Pod Setpoints.vi"/>
-			<Item Name="Swerve IMU Orientation Correction.vi" Type="VI" URL="../../swerve/Hardware VIs/Swerve IMU Orientation Correction.vi"/>
-			<Item Name="ThroughBore Calibration.vi" Type="VI" URL="../../swerve/Hardware VIs/ThroughBore Calibration.vi"/>
-			<Item Name="Gear Ratio (Drive).vi" Type="VI" URL="../../swerve/conversion/Gear Ratio (Drive).vi"/>
-			<Item Name="Gear Ratio (Steer).vi" Type="VI" URL="../../swerve/conversion/Gear Ratio (Steer).vi"/>
-			<Item Name="Initialize 8 NEO Swerve Drive.vi" Type="VI" URL="../../swerve/Hardware VIs/Initialize 8 NEO Swerve Drive.vi"/>
-			<Item Name="NEO Set Pod Setpoints.vi" Type="VI" URL="../../swerve/Hardware VIs/NEO Set Pod Setpoints.vi"/>
-			<Item Name="NEO Set Output.vi" Type="VI" URL="../../swerve/Hardware VIs/NEO Set Output.vi"/>
-			<Item Name="Trajectory Data.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Trajectory Data.ctl"/>
-			<Item Name="Segment Type.ctl" Type="VI" URL="../../bordeaux-pathinator/Bordeaux/Types/Segment Type.ctl"/>
-			<Item Name="Pigeon2 Robot Centric.vi" Type="VI" URL="../../swerve/Hardware VIs/Pigeon2 Robot Centric.vi"/>
-			<Item Name="Robot To Field Centric.vi" Type="VI" URL="../../swerve/math/Robot To Field Centric.vi"/>
+			<Item Name="Robot Velocities.ctl" Type="VI" URL="../../swerve-template/Type Definitions/Data/Robot Velocities.ctl"/>
+			<Item Name="(NEO-NEO-ThroughBore-Pigeon2) Swerve.ctl" Type="VI" URL="../../swerve-template/Type Definitions/Hardware/Swerve Drives/(NEO-NEO-ThroughBore-Pigeon2) Swerve.ctl"/>
+			<Item Name="(NEO &amp; NEO 550) 4 Motor Set.ctl" Type="VI" URL="../../swerve-template/Type Definitions/Hardware/4 Motor Sets/(NEO &amp; NEO 550) 4 Motor Set.ctl"/>
+			<Item Name="Pod Positions.ctl" Type="VI" URL="../../swerve-template/Type Definitions/Data/Pod Positions.ctl"/>
+			<Item Name="Pigeon2 Robot Centric.vi" Type="VI" URL="../../swerve-template/Hardware VIs/Pigeon2 Robot Centric.vi"/>
+			<Item Name="Robot To Field Centric.vi" Type="VI" URL="../../swerve-template/math/Robot To Field Centric.vi"/>
+			<Item Name="Pigeon2 Field Centric.vi" Type="VI" URL="../../swerve-template/Hardware VIs/Pigeon2 Field Centric.vi"/>
+			<Item Name="Field To Robot Centric.vi" Type="VI" URL="../../swerve-template/math/Field To Robot Centric.vi"/>
+			<Item Name="Swerve IMU Orientation Correction.vi" Type="VI" URL="../../swerve-template/Hardware VIs/Swerve IMU Orientation Correction.vi"/>
+			<Item Name="NEO Swerve Drive.vi" Type="VI" URL="../../swerve-template/Hardware VIs/NEO Swerve Drive.vi"/>
+			<Item Name="Pod Setpoints.ctl" Type="VI" URL="../../swerve-template/Type Definitions/Data/Pod Setpoints.ctl"/>
+			<Item Name="Config Motors NEO.vi" Type="VI" URL="../../swerve-template/Hardware VIs/Config Motors NEO.vi"/>
+			<Item Name="NEO Set PID Coefficients.vi" Type="VI" URL="../../swerve-template/Hardware VIs/NEO Set PID Coefficients.vi"/>
+			<Item Name="Inverse Kinematics.vi" Type="VI" URL="../../swerve-template/math/Inverse Kinematics.vi"/>
+			<Item Name="NEO Get Sensor Values.vi" Type="VI" URL="../../swerve-template/Hardware VIs/NEO Get Sensor Values.vi"/>
+			<Item Name="Optimize Pod Setpoints.vi" Type="VI" URL="../../swerve-template/math/Optimize Pod Setpoints.vi"/>
+			<Item Name="Inverse Kinematics Solution to Pod Setpoints.vi" Type="VI" URL="../../swerve-template/math/Inverse Kinematics Solution to Pod Setpoints.vi"/>
+			<Item Name="NEO Set Pod Setpoints.vi" Type="VI" URL="../../swerve-template/Hardware VIs/NEO Set Pod Setpoints.vi"/>
+			<Item Name="NEO Set Output.vi" Type="VI" URL="../../swerve-template/Hardware VIs/NEO Set Output.vi"/>
+			<Item Name="Forward Kinematics.vi" Type="VI" URL="../../swerve-template/math/Forward Kinematics.vi"/>
+			<Item Name="Get Inverse Kinematics Matrix.vi" Type="VI" URL="../../swerve-template/math/Get Inverse Kinematics Matrix.vi"/>
+			<Item Name="Single Cmd Info.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Single Cmd Info.ctl"/>
+			<Item Name="Initialize 8 NEO Swerve Drive.vi" Type="VI" URL="../../swerve-template/Hardware VIs/Initialize 8 NEO Swerve Drive.vi"/>
+			<Item Name="Gear Ratio (Steer).vi" Type="VI" URL="../../swerve-template/conversion/Gear Ratio (Steer).vi"/>
+			<Item Name="Gear Ratio (Drive).vi" Type="VI" URL="../../swerve-template/conversion/Gear Ratio (Drive).vi"/>
+			<Item Name="ThroughBore Calibration.vi" Type="VI" URL="../../swerve-template/Hardware VIs/ThroughBore Calibration.vi"/>
+			<Item Name="Dashboard Swerve Visual.vi" Type="VI" URL="../../swerve-template/test/Inverse Kinematics Test/Dashboard Swerve Visual.vi"/>
+			<Item Name="Create Box.vi" Type="VI" URL="../../swerve-template/test/Inverse Kinematics Test/Create Box.vi"/>
+			<Item Name="Arrow Drawing Utility.vi" Type="VI" URL="../../swerve-template/test/Inverse Kinematics Test/Arrow Drawing Utility.vi"/>
+			<Item Name="Draw Arrow.vi" Type="VI" URL="../../swerve-template/test/Inverse Kinematics Test/Draw Arrow.vi"/>
+			<Item Name="Pod Drawing Utility.vi" Type="VI" URL="../../swerve-template/test/Inverse Kinematics Test/Pod Drawing Utility.vi"/>
+			<Item Name="Versioned Load.vi" Type="VI" URL="../../bordeaux/Bordeaux/FileIO/Versioned Load.vi"/>
+			<Item Name="Overrides.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Overrides.ctl"/>
+			<Item Name="Angluar Limits.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Angluar Limits.ctl"/>
+			<Item Name="Drive Type.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Drive Type.ctl"/>
+			<Item Name="Path Type.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Path Type.ctl"/>
+			<Item Name="Trajectory Data.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Trajectory Data.ctl"/>
+			<Item Name="Segment Type.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Segment Type.ctl"/>
+			<Item Name="Availible Command systems for auto.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Availible Command systems for auto.ctl"/>
+			<Item Name="Limits.ctl" Type="VI" URL="../../bordeaux/Bordeaux/Types/Limits.ctl"/>
+			<Item Name="Convert Trajectory Data 4.0.vi" Type="VI" URL="../../bordeaux/Bordeaux/FileIO/Convert Trajectory Data 4.0.vi"/>
+			<Item Name="Convert Overrides.vi" Type="VI" URL="../../bordeaux/Bordeaux/Util/Convert Overrides.vi"/>
+			<Item Name="NEO-NEO-ThroughBore-Pigeon2 Swerve Config.ctl" Type="VI" URL="../../swerve-template/Type Definitions/Hardware/Swerve Configs/NEO-NEO-ThroughBore-Pigeon2 Swerve Config.ctl"/>
+			<Item Name="Numerical Integration.vi" Type="VI" URL="../../swerve-template/math/Numerical Integration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Paths" Type="Source Distribution">

@@ -7,3 +7,12 @@
 [submodule "crescendo-dashboard-2024"]
 	path = crescendo-dashboard-2024
 	url = https://github.com/frc2468/crescendo-dashboard-2468
+[submodule "swerve-template"]
+	path = swerve-template
+	url = https://github.com/frc2468/swerve-template
+[submodule "bordeaux"]
+	path = bordeaux
+	url = https://github.com/frc2468/bordeaux
+[submodule "crescendo-dashboard-2468"]
+	path = crescendo-dashboard-2468
+	url = https://github.com/frc2468/crescendo-dashboard-2468
