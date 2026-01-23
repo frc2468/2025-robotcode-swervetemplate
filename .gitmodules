@@ -9,10 +9,14 @@
 	url = https://github.com/frc2468/crescendo-dashboard-2468
 [submodule "swerve-template"]
 	path = swerve-template
-	url = https://github.com/frc2468/swerve-template
+	url = https://github.com/frc2468/swerve-template.git
 [submodule "bordeaux"]
 	path = bordeaux
-	url = https://github.com/frc2468/bordeaux
+	url = https://github.com/frc2468/bordeaux.git
+	branch = rebuilt
 [submodule "crescendo-dashboard-2468"]
 	path = crescendo-dashboard-2468
 	url = https://github.com/frc2468/crescendo-dashboard-2468
+[submodule "rebuilt-dashboard-2026"]
+	path = rebuilt-dashboard-2026
+	url = https://github.com/frc2468/rebuilt-dashboard-2026.git
